@@ -33,6 +33,10 @@ void ShowMenu(int iItem)          ///Меню выбора и вывод статистика
     printf("%s3 - Ножницы\n",iItem == 3 ? ">" : " ");
     GotoXY(32,6);
     printf("%s4 - Выход\n",iItem == 4 ? ">" : " ");
+    GotoXY(69,22);
+    cout << "version 0.8";
+    GotoXY(60,23);
+    cout << "Last upd. 17.05.2015";
 }
 
 void menu()
